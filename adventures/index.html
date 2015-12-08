@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+.coloredfilter {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: -900;
+    background:#A79C64 none repeat scroll 0% 0%;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url() no-repeat;
+    background-size: cover; 
+}
+</style>
+        
+<title>Canoeligans, scourge of the Finger Lakes</title>
+        
+<!--load stylesheets and javascript-->
+<link rel="stylesheet" href="/code/canoeliganstemplate01.css" type="text/css" media="screen" />
+
+<body>
+
+<video id="bgvid" preload="auto" autoplay loop muted="muted" volume="0">
+     <source src="/burn.mp4" type="video/mp4">
+</video>
+
+
+<div class="coloredfilter"></div>
+<!--BEGIN HEADER-->
+<center>
+<p>
+<div>
+<img src="/canoeligans.png" width="50%"/>
+</center>
+</div>
+<p>
+<a href="/adventures/kscav/albums.php">Click here to see files</a>
+
+</div>
+<!--END HEADER-->
+
+</body>
+</html>

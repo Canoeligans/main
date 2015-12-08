@@ -1,0 +1,26 @@
+<title>You did not pass!</title>
+        
+<!--load stylesheets and javascript-->
+<link rel="stylesheet" href="/code/canoeliganstemplate01.css" type="text/css" media="screen" />
+
+
+<body>
+
+<div id="content">
+<!--BEGIN HEADER-->
+<div id="header">
+<center>
+<div id="headlogo" class="fadeslow">
+<a href="http://www.canoeligans.com"><img src="/files/logo.jpg" width="480px" height="480px" /></a>
+</div>
+</center>
+
+<center><h1>You have died of dysentery!</h1></center>
+<center>Try again, <u>username:</u> ask the admin <u>password hint:</u> the game we play</center>
+</div>
+</div>
+<!--END HEADER-->
+
+
+</body>
+</html>

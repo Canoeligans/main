@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+.coloredfilter {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: -900;
+    background:#A79C64 none repeat scroll 0% 0%;
+    opacity: 0.5;
+    filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+#videobcg {
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     z-index: -1000;
+     overflow: hidden;
+}
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url() no-repeat;
+    background-size: cover; 
+}
+a.button {
+	border:2px solid #FFF;
+	background: rgba(0, 0, 0, 0.3) none repeat scroll 0% 0%;
+	transition-duration: 0.25s;
+	padding: 10px 15px;
+	font-family: "proxima-nova-n7","proxima-nova",sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	border-radius: 5px;
+}
+a.button:hover {
+  background: #FFF;
+  color: #000;
+}
+#map {
+    background: url(/fingerlakesmap.jpg) no-repeat;
+    background-position: center; 
+}
+</style>
+        
+<title>Canoeligans, scourge of the Finger Lakes</title>
+        
+<!--load stylesheets and javascript-->
+<link rel="stylesheet" href="/code/canoeliganstemplate01.css" type="text/css" media="screen" />
+
+
+<body>
+
+<video id="bgvid" preload="auto" autoplay loop muted="muted" volume="0">
+     <source src="bgmovie3.mp4" type="video/mp4">
+     <source src="bgmovie.webm" type="video/webm">
+          Sorry, your browser does not support HTML5 video.
+</video>
+
+<div id="map">
+<div class="coloredfilter"></div>
+<!--BEGIN HEADER-->
+<center>
+<p>
+<div>
+<img src="/canoeligans.png" width="50%"/>
+</center>
+</p>
+&nbsp;
+&nbsp;
+&nbsp;
+<center>
+<a class="button" href="/adventures/kscav/uploadphp.php">ENTER</a>
+</center>
+</div>
+</div>
+</div>
+<!--END HEADER-->
+
+</body>
+</html>

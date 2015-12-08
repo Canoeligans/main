@@ -1,0 +1,5 @@
+AuthName "USERNAME: ask the admin PASSWORD: the game we play" 
+AuthType Basic 
+AuthUserFile /home1/lukewhit/public_html/canoeligans/adventures/.htpasswd
+AuthGroupFile /dev/null 
+require valid-user

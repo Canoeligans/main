@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul.thumb {
+	float: left;
+	list-style: none;
+	margin:0;
+	width: 98%;
+}
+ul.thumb li {
+	margin: 0;
+	padding:5px;
+	float: left;
+	position: relative;  /* Set the absolute positioning base coordinate */
+	width: 160px;
+	height: 122px;
+}
+ul.thumb li img {
+	width: 150px; height: 112px; /* Set the small thumbnail size */
+	-ms-interpolation-mode: bicubic; /* IE Fix for Bicubic Scaling */
+	border: 5px solid #666;
+	background: #f0f0f0;
+	position: absolute;
+	left: 0; top: 0;
+}
+ul.thumb li img.hover {
+	padding:9px;
+	background:#FC0;
+	border: 1px solid #666; /* Change border on hover */
+}
+
+#profiles{
+	margin-top:20px;
+	background-color:#000;}
+#profiles a{
+	margin-right:10px;
+	margin-left:10px;
+	margin-bottom:30px;
+	font-family: 'Old Standard TT', arial, serif;
+	color:#FC0;
+	text-decoration:none;
+	font-size:20px;
+	font-weight:bold;}
+#profiles a:hover{
+	color:#FFF;}
+	
+#right{
+	float:right;
+	width:25%;
+	font-family: 'Old Standard TT', arial, serif;
+	color:#FFF;
+	text-decoration:none;
+	font-size:20px;
+	font-weight:bold;}
+#right h1{
+	font-size:25px;
+}
+
+#left{
+	float:left;
+	margin-top:20px;
+	width:70%;
+	min-width:600px;
+	color:#FFF;
+	text-align:right;}
+
+.picture{
+	border:10px solid #666;
+	width:100%;}
+	
+#left a:link{
+	color:#FFF;
+	text-decoration : none;
+	font-weight:bold;}
+#left a:hover{
+	color:#FC0}
+#left a:visited{
+	color:#FFF;
+	text-decoration : none;
+	font-weight:bold;}
