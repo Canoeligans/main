@@ -52,7 +52,7 @@ $("ul.thumb li").hover(function() {
 <!--BEGIN HEADER-->
 <div id="header">
 <div id="headlogo" style="font-size:72px">
-Canoeligans Scavenger Hunt
+Canoeligans Crazay Scavenger Hunt
 <!--<img src="/files/ithacawb.png" width="548px" height="135px" />-->
 </div>
 <!--<a href="http://www.canoeligans.com" title="Return to Homepage"><img id="headblank" src="/zoo/files/blank.png" width="100%" height="140px" /></a>-->
