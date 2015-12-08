@@ -1,2 +1,5 @@
-<!-- SHTML Wrapper - 404 Not Found -->
-<!--#exec cgi="/cgi-sys/fourohfour.cgi" -->
+<center>
+<p>
+You've been 404'd!
+<p>
+<a href="http://www.canoeligans.com"><img src="/zoo/files/logo.jpg"></a>
